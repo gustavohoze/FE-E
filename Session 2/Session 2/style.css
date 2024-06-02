@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table{
+  width: auto;
+  height: 50vh;
+  border: solid 1px red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table{
+  width: 50vw;
+  height: 40vh;
+  border-spacing: 10px;
+  border-collapse: collapse;
+}
+
+td{
+  padding-left: 6px;
+  /* color: red;
+  border:1px solid blue; */
+}
+
+/* .pertama{
+  width: 10%;
+}
+.kedua{
+  width: 30%;
+} */
+
+thead :nth-child(1){
+  width: 10%;
+}
+thead :nth-child(2){
+  width: 30%;
+}
+thead :nth-child(3){
+  width: 30%;
+}
+thead :nth-child(4){
+  width: 30%;
+}
+
+
+th{
+  background-color: #D2D2D2;
+  border: 1px solid black;
+}
+
+.macam-macam-display{
+  display: flex;
+}
+
+.macam-macam-display>div{
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.inline-text{
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+.block-text{
+  text-align: center;
+display: block;
+width: 100px;
+height: 100px;
+}
+
+.none-text{
+  /* display: none; */
+}
+
+
+.inline-block-text{
+  display: inline-block;
+  width: 100px;
+height: 100px;
+}
+
+#box1{
+  background-color: blue;
+}
+
+.box{
+border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container{
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+#box3{
+  background-color: brown;
+}
+

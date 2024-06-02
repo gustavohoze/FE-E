@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background colour */
+/* 1. Default (red,yellow,green) */
+/* 2. RGB (Define the red, green, and blue) */
+/* 3. RGBA (Sama kaya RGB tapi ditambah atribut a yang berfungsi untuk menentukan opaity suatu color) */
+/* 4. HSL (Define the Hue, Saturation, and Lightness) */
+/* 4. HSLA (Sama kaya HSL tapi ditambah atribut a yang berfungsi untuk menentukan opaity suatu color) */
+
+
+.mainpage{
+
+ background: rgb(245,204,160);
+background: radial-gradient(circle, rgba(245,204,160,1) 0%, rgba(218,112,76,1) 100%);
+  width: 100vw;
+  height: 100vh;
+  background-image: url(building.jpg);
+  border: 1px solid red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.tambahan{
+  width: auto;
+  height: 200vh;
+}

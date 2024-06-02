@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--DOCTYPE HTML berfungsi untuk meemberi tahu browser bahasa apa yang akan digunakan, di case ini berarti kita pakai bahasa HTML  -->
+<html lang="en">
+  <!-- HTML LANG EN berarti bahwa bahasa yang kita gunakan untuk penulsian code adalah bahasa english, misal body, head,link, dll -->
+  <head>
+    <!--  HEAD merupakan bagian pertama dari HTML. Bagian head bisa ditulisi code/syntax tetapi tidak disarankan dikarenakan fungsi utama head 
+  adalah untuk melampirka hal-hal eksternal yang dibutuhkan seperti link dan script.-->
+    <meta charset="UTF-8" />
+    <!-- charset UTF-8 berfunsgi supaya HTML bisa mendeteksi lebih banyak symbol/kata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport berhubungan dengan responsivitas suatu website, responsivitas adalah tampilan web yang berbeda ketika kita memakai laptop atau handphone -->
+    <title>Sesi 1</title>
+    <!-- Nama website kalian -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link digunakan untuk menghubungkan dua atau lebih jenis file, biasa digunakan untuk menghubungkan css external, bootstrap, script dan lainnya -->
+  </head>
+
+  <!-- Element terdiri dari opening tag, closing tag, dan content
+  Opening tag adalah tag yang membuka suatu element, contoh: <head>
+  Content adalah isi didalam element, misal Makanan dalam <head>Makanan</head>
+  Closing tag adalah tag yang menutup suatu element, contoh </head> -->
+
+  <body>
+    <!-- Body merupakan bagian isi dalam HTML, body digunakan untuk menuliskan seluruh code/syntax yang akan digunakan dalam website -->
+    <!-- Header -->
+    <!-- Header/heading merupakan element HTML yang digunakan untuk dijadikan suatu highlight ketika pertama kali membaca suatu tulisan -->
+    <!-- <h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6> -->
+
+    <!-- p merupakan singkatan dari paragraph yang merupakan berfungsi untuk menuliskan konten, 
+jika kita belum memiliki gambaran tentang apa yang ingin kita tuliskan, kita dapat menggunakan keyword "Lorem" untuk memberikan tulisan dummy -->
+
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore
+      reprehenderit in neque rem qui saepe voluptas libero repellat obcaecati
+      velit itaque natus dolores dolorem, blanditiis est consequuntur, rerum
+      amet?
+    </p> -->
+
+    <!-- a merupakan element pada HTML yang digunakan untuk menyusupkan link pada website kalian, link dapat berupa website, element ataupun section pada web kalian. Selain berupa teks, link juga dapat disisipkan dalam element html lainnya seperti 
+      image, list, dll -->
+    <!-- a juga memiliki atribut lain yang dapat ditambahkan seperti target, target memungkinkan link yang digunakan supaya dapat dibuka di page yang sama ataupun di page yang berbeda -->
+
+    <!-- <a href="https://www.instagram.com/">
+      <img src="../asset/download (6).jpg" alt="" />
+    </a> -->
+    <!-- <div
+      class="Atas"
+      id="bagianatas"
+      style="width: auto; height: 100dvh; background-color: aqua"
+    >
+      <a href="#bagianbawah">Ke bawah</a>
+    </div>
+    <div
+      class="bawah"
+      id="bagianbawah"
+      style="width: auto; height: 100dvh; background-color: bisque"
+    >
+      <a href="#bagianatas">Ke atas</a>
+    </div> -->
+
+    <!-- img merupakan singkatan dari image, sesuai namanya element ini berfungsi untuk memunculkan gambar pada website kalian -->
+    <!-- img dapat diakses dengan dua cara utama, yg pertama adalah menggunakan link gambar, dan yang kedua adalah dengan menggunakan link file kalian -->
+    <!-- alt berfungsi sebagai kata alternatif yang digunakan jika user tidak memiliki koneksi yang cukup untuk memunculkan gambar/ ketika gambar tidak ditemukan -->
+    <!-- <img
+      src="data:image/jpeg;base64,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"
+      alt="mikro"
+    />
+    <img src="/asset/download (6).jpg" alt="" /> -->
+    <!-- br dan hr merupakan element html yang digunakan untuk memberikan gap pada website kalian tanpa perlu styling, hr dan juga br biasanya digunakan untuk memisahkan paragraf -->
+    <!-- <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fuga
+      ducimus veniam aliquam inventore, earum sequi sapiente hic. Excepturi qui
+      unde aperiam sint. Cum esse modi blanditiis soluta necessitatibus maiores.
+    </p>
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fuga
+      ducimus veniam aliquam inventore, earum sequi sapiente hic. Excepturi qui
+      unde aperiam sint. Cum esse modi blanditiis soluta necessitatibus maiores.
+    </p>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fuga
+      ducimus veniam aliquam inventore, earum sequi sapiente hic. Excepturi qui
+      unde aperiam sint. Cum esse modi blanditiis soluta necessitatibus maiores.
+    </p> -->
+
+    <!-- form input dan juga button biasanya digunakan dalam satu kesatuan untuk membuat suatu form. -->
+    <!-- action pada form digunakan untuk meletakkan link database yang kalian milikki. -->
+    <!-- type pada input berfunsgi untuk memberikan tipe input yang kalian inginkan,
+    jenis type yang paling sering digunakkan adalah text, password, dan email. -->
+
+    <!-- <form
+      action=""
+      style="
+        display: grid;
+        height: 50%;
+        width: 60%;
+        position: absolute;
+        inset: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid red;
+        background-color: hsl(0, 0%, 100%);
+        backdrop-filter: blur(40%);
+      "
+    >
+      <div
+        class="formnama"
+        style="display: flex; justify-content: space-around; width: 700px"
+      >
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" placeholder="Nama kalian" id="nama" />
+      </div>
+      <div
+        class="formnama"
+        style="display: flex; justify-content: space-around; width: 700px"
+      >
+        <label for="password">Password kalian</label>
+        <input type="password" placeholder="Password kalian" id="password" />
+      </div>
+      <div
+        class="formnama"
+        style="display: flex; justify-content: space-around; width: 700px"
+      >
+        <label for="email">Email kalian</label>
+        <input type="email" placeholder="Email kalian" id="email" />
+      </div>
+      <div class="button">
+        <button>Button</button>
+      </div>
+    </form> -->
+
+    <!-- Table digunakan untuk membuat suatu tabel, terdiri dari 2 element lainnya yaitu td => table data dan tr => table row -->
+    <!-- <table border="1">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+    </table> -->
+
+    <!-- div merupakan aspek paling penting dalam html karena berfungsi untuk membagi" section pada website. div memiliki saudara bernama span. -->
+    <!-- div akan mengisi seluruh row, sedangkan span akan mengisi sampai isi konten tersebut selesai. -->
+    <!-- <div>
+      Ini contoh div dalam div
+      <div>Contoh</div>
+      Dalam div
+    </div>
+    <span>
+      Ini contoh span dalam span
+      <span> Contoh </span>
+      Dalam span
+    </span> -->
+
+    <!-- Macam-macam styling dibagi menjadi 3: -->
+    <!-- 1. Inline css: -->
+    <!-- Melakukan styling dalam satu line yang sama, misal: -->
+    <!-- <h1 style="font-size: 10px;">Contoh inline css</h1> -->
+    <!-- 2. Internal CSS, menggunakan atribut bantuan yaitu <style></style> -->
+    <!-- <style>
+  body{
+    margin: 0;
+  }
+</style> -->
+    <!-- 3. External CSS: menggunakan file lain, untuk contoh styling nya dapat dilihat di style.css -->
+    <!-- External CSS paling sering digunakan karena fungsi html adalah sebagai struktur, bukan desain. -->
+
+    <!-- Selector secara garis besar dibagi menjadi 3 yaitu, class, id dan element. -->
+    <!-- <style>
+      /* Ini contoh selector id */
+      #nameofid{
+        font-size: 100px;
+      }
+      /* Ini contoh selector class */
+      .nameofclass{
+        font-size: 100px;
+      }
+      /* Ini contoh selector element */
+      body{
+        font-size: 100px;
+      }
+
+    </style> -->
+
+    <!-- Text properties -->
+    <!-- text properties merupakan sebuah css yang digunakan untuk mengubah" desain dari suatu font.  -->
+    <!-- text properties yang paling sering digunakan adalah: -->
+    <!-- 1. font-size
+    2. font-family
+    3. font-weight
+    4. color -->
+
+    <!-- Align items -->
+    <!-- Align items yang paling sering digunakan adalah center, start dan juga end.
+    Tetapi juga ada align items tipe baseline. Start: meletakkan item pada awal.
+    Center: meletakkan item di tengah. End: meletakkan item di akhhir. Baseline:
+    meletakkan item berdasarkan letak tulisan pada konten. -->
+    <!-- <div class="containergrid">
+      <div class="container start">
+        <div class="box a">1</div>
+        <div class="box b">2</div>
+        <div class="box c">3</div>
+      </div>
+      <div class="container end">
+        <div class="box a">1</div>
+        <div class="box b">2</div>
+        <div class="box c">3</div>
+      </div>
+      <div class="container baseline">
+        <div class="box a">1</div>
+        <div class="box b">2</div>
+        <div class="box c">3</div>
+      </div>
+      <div class="container center">
+        <div class="box a">1</div>
+        <div class="box b">2</div>
+        <div class="box c">3</div>
+      </div>
+    </div> -->
+  </body>
+</html>

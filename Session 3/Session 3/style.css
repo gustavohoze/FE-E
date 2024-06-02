@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: brown; */
+}
+/* #paragraf2{
+  color: red ;
+  background-color: beige;
+}
+
+
+
+
+
+p{
+  color: aqua ;
+  background-color: black;
+}
+p{
+  color: red ;
+  background-color: black;
+}
+p{
+  color: black ;
+  background-color: black;
+}
+p{
+  color: yellow ;
+  background-color: black;
+
+}
+p{
+  color: green ;
+  background-color: black ;
+}
+
+
+.superman p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.batman p{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.batman #pertama{
+  background-color: indianred;
+  color: white;
+}
+
+#pertama{
+  background-color: indianred;
+  color: white;
+}
+ */
+
+/* div p{
+  background-color: blue;
+} */
+
+/* [title]{
+  color: brown;
+}
+.title{
+  color: blue;
+} */
+
+/* .container{
+  width: auto;
+  height: 50vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child{
+  width: 25%;
+  height: 100%;
+}
+
+.child:nth-child(1){
+  background-color: aquamarine;
+}
+.child:nth-child(2){
+  background-color: red;
+}
+.child:nth-child(3){
+  background-color: blue;
+}
+.child:nth-child(4){
+  background-color: violet;
+} */
+
+.box{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+
+
+/* @media(max-width:;) and (min-width:;){
+
+} */
+
+@media(max-width:100px){
+  .box{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+  }
+}
+/* @media(min-width:100px){
+  .box{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+  }
+} */

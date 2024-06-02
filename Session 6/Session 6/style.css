@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 1px solid red;
+  align-items: center;
+  display: flex;
+justify-content: center;
+
+}
+.container{
+  width: auto;
+  height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+background-repeat: no-repeat;
+background-size: cover;
+/* filter: blur(3px) brightness(100%) grayscale(100%) sepia(100%);
+background-image: url(https://media.istockphoto.com/id/1455864269/id/foto/pegunungan-indah-yang-menakjubkan-dan-area-alam-di-musim-panas-montana.jpg?s=612x612&w=is&k=20&c=QVx5bf5AehCtp8lrujRkP3Eb1LQjMUFx4BPBABV-DM8=); */
+}
+.scale:hover{
+  animation: Scales 1s infinite;
+}
+
+
+@keyframes Scale{
+  from{
+    transform:scale(1) ;
+  }to{
+transform:scale(2) ;
+  }
+}
+
+@keyframes Scales{
+  0%,100%{
+    transform:scale(1);
+  }50%{
+    transform:scale(2);
+    background-color: coral;
+    color: white;
+   text-transform: uppercase;
+   box-shadow: 1px 1px 30px 10px #f9ab65;
+  }
+}
+
+.skew:hover{
+  animation: Skew 2s infinite;
+}
+
+@keyframes Skew{
+  0%,100%{
+  }25%{
+    transform:Skew(60deg);
+  }
+  
+  
+  50%{
+    transform:Skew(30deg);
+    background-color: coral;
+  }
+  75%{
+    transform:Skew(-60deg);
+  }
+}
+.rotate:hover{
+  animation: Rotate 2s infinite;
+}
+@keyframes Rotate{
+  0%,100%{
+    transform: rotateY(0deg);
+  }50%{
+    transform: rotateY(180deg);
+    background-color: green;
+  }
+}
+
+.translate:hover{
+  animation: Translate 2s infinite;
+}
+
+@keyframes Translate{
+  0%,100%{
+    transform:translate(0);
+  }50%{
+    transform: translateX(-50px);
+  }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){
+
+}
+
+textarea{
+  resize: none;
+}

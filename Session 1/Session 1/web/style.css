@@ -1,0 +1,142 @@
+/* Semua dibawah ini merupakan external CSS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* id > class > element */
+/* h2{
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  color: #713232;
+  text-align: justify;
+}
+
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 1px solid red;
+}
+
+#merah{
+  background-color: black;
+  
+}
+.rectangle{
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+} */
+
+
+body{
+  background-color: beige;
+}
+.box{
+  width: 50px;
+  text-align: center;
+  height: 100px;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.container{
+  display: flex;
+  /* align-items: baseline; */
+  justify-content: space-around;
+  background-color: white;
+  width: 25%;
+  height: 40vh;
+  border: 1px solid red;
+}
+/* 
+.a{
+  display: flex;
+  align-items: center;
+} */
+
+input{
+width: 300px;
+height: 30px;
+text-align: center;
+}
+
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+label{
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+  align-items:center ;
+  height: auto;
+  width: auto;
+}
+.button{
+justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: inherit;
+}
+
+button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: violet;
+}
+
+.start{
+align-items: start;
+}
+.baseline{
+  align-items: baseline;
+}
+
+.end{
+  align-items: end;
+}
+
+.center{
+  align-items: center;
+}
+
+.a{
+display: flex;
+align-items: center;
+}
+.b{
+  display: flex;
+align-items: start;
+}
+.c{
+  display: flex;
+align-items: end;
+}
+
+.containergrid{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
